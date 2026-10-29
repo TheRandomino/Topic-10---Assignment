@@ -48,6 +48,7 @@
             this.btnCPU.TabIndex = 0;
             this.btnCPU.Text = "CPU";
             this.btnCPU.UseVisualStyleBackColor = true;
+            this.btnCPU.Click += new System.EventHandler(this.btnCPU_Click);
             // 
             // btnRAM
             // 
@@ -58,6 +59,7 @@
             this.btnRAM.TabIndex = 2;
             this.btnRAM.Text = "RAM";
             this.btnRAM.UseVisualStyleBackColor = true;
+            this.btnRAM.Click += new System.EventHandler(this.btnRAM_Click);
             // 
             // btnSSD
             // 
@@ -68,6 +70,7 @@
             this.btnSSD.TabIndex = 3;
             this.btnSSD.Text = "SSD";
             this.btnSSD.UseVisualStyleBackColor = true;
+            this.btnSSD.Click += new System.EventHandler(this.btnSSD_Click);
             // 
             // btnPSU
             // 
@@ -78,6 +81,7 @@
             this.btnPSU.TabIndex = 4;
             this.btnPSU.Text = "PSU";
             this.btnPSU.UseVisualStyleBackColor = true;
+            this.btnPSU.Click += new System.EventHandler(this.btnPSU_Click);
             // 
             // btnInput
             // 
@@ -88,6 +92,7 @@
             this.btnInput.TabIndex = 5;
             this.btnInput.Text = "Input Peripheral";
             this.btnInput.UseVisualStyleBackColor = true;
+            this.btnInput.Click += new System.EventHandler(this.btnInput_Click);
             // 
             // btnOutput
             // 
@@ -98,6 +103,7 @@
             this.btnOutput.TabIndex = 6;
             this.btnOutput.Text = "Output Peripheral";
             this.btnOutput.UseVisualStyleBackColor = true;
+            this.btnOutput.Click += new System.EventHandler(this.btnOutput_Click);
             // 
             // imgComponents
             // 
@@ -117,7 +123,7 @@
             this.lblComponentInfo.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblComponentInfo.Location = new System.Drawing.Point(258, 293);
             this.lblComponentInfo.Name = "lblComponentInfo";
-            this.lblComponentInfo.Size = new System.Drawing.Size(411, 93);
+            this.lblComponentInfo.Size = new System.Drawing.Size(411, 67);
             this.lblComponentInfo.TabIndex = 8;
             this.lblComponentInfo.Text = "The central processing unit (CPU) is often labeled as the \"brain\" of the computer" +
     ", processing data and executing all other hardware actions";
